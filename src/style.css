@@ -1,0 +1,36 @@
+
+.btn-secondary , .bg-secondary{
+    background: linear-gradient(45deg,black,purple);
+}
+
+
+.heading{
+
+        text-shadow: 0px -1px 2px white,
+        0px -3px 6px rgba(255,200,200,1),
+        0px -6px 12px rgba(255,150,100,1),
+        0px -10px 20px rgba(255,100,100,1),
+        0px -15px 30px rgb(206, 33, 33),
+        0px -21px 42px rgba(255,0,0,1);
+        animation:animate 1s linear forwards,fire 0.01s ease infinite,colorSpin 10s linear infinite;
+        font-family: 'Monoton', cursive !important;
+        z-index: 1;
+}
+
+
+@keyframes fire{
+    60%{
+      text-shadow:0px -4px 8px white,
+    0px -12px 24px rgba(255,200,200,1),
+    0px -24px 48px rgba(255,150,100,1),
+    0px -40px 80px rgba(255,100,100,1),
+    0px -60px 120px rgba(255,50,50,1),
+    0px -84px 168px rgba(255,0,0,1);
+      }
+  }
+  
+  
+  @keyframes colorSpin{
+    to{filter:hue-rotate(360deg)}
+  }
+
