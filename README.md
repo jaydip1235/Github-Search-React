@@ -1,1 +1,1 @@
-https://github-search-apps.herokuapp.com/
+https://jd-github-search.herokuapp.com/
