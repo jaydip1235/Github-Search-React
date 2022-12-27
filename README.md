@@ -1,1 +1,1 @@
-https://jd-github-search.herokuapp.com/
+## To visit the website click [here](https://github-search-jd.netlify.app/)
